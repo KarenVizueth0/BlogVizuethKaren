@@ -1,0 +1,89 @@
+.ddsmoothmenu{
+}
+
+.ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+/*Estilo del menu*/
+.ddsmoothmenu ul li a {
+	display: block;
+	height: 30px;
+	width: 77px;
+	margin-right: 5px;
+	line-height: 29px;
+	font-size: 13px;
+	color: #333;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	
+}
+
+* html .ddsmoothmenu ul li a{ 
+display: inline-block;
+}
+
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { 
+	color: #fff;
+	background: url(../images/templatemo_menu_hover.png)
+}
+
+.ddsmoothmenu ul li ul {
+	position: absolute;
+	width: 184px;
+	margin: 0 0 0 3px;
+	display: none; 
+	visibility: hidden;
+	background: #cfccc9;
+}
+
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+.ddsmoothmenu ul li ul li a{
+	font-weight: 500;
+	width: 140px; 
+	margin: 0 3px 0 1px;
+	height: 28px;
+	line-height: 28px;
+	padding: 5px 20px;
+	font-size: 11px;
+	text-align: left;
+	background: none;
+	color: #666;
+	border-bottom: 1px solid #bab5b0;
+	z-index: 10000
+}
+
+.ddsmoothmenu ul li ul li .last {
+	border-bottom: none;
+}
+
+.ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
+	color: #fff;
+	width: 139px;
+	padding-left: 21px;
+	background: #bab5b0;
+}
+
+
+* html .ddsmoothmenu{height: 1%;} 
